@@ -1,0 +1,187 @@
+/* Colors */
+:root {
+  --primary-color: #00013a;
+  --secondary-color: #b77a0f;
+  --third-color: #ff6902;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.page_margin {
+  height: 200px;
+  width: 100%;
+}
+
+.sectoin_padding {
+  margin-top: 140px;
+}
+
+/* Navbar styling start  */
+.contact_btn {
+  background-color: var(--secondary-color);
+  color: white;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: var(--primary-color) !important;
+}
+
+.navbar_icon {
+  font-size: 30px;
+  color: var(--secondary-color);
+}
+
+.offcanvas_icon {
+  color: var(--primary-color);
+  font-size: 22px;
+  margin-right: 12px;
+}
+
+/* Hero styling start  */
+.hero_container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/assets/images/hero03.svg");
+  background-repeat: no-repeat;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  width: 100%;
+  background-size: cover;
+}
+
+.hero_title {
+  font-size: 60px;
+}
+
+.btn_contact {
+  background-color: white;
+  border-color: white;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+/* Points section style start  */
+.point_container {
+  margin-top: -50px;
+}
+
+.points_card {
+  background-color: white;
+}
+
+.main_points_card {
+  background-color: var(--primary-color) !important;
+}
+
+.points_card_title {
+  color: var(--secondary-color);
+}
+
+/* About Logo  */
+.about_logo {
+  object-fit: contain;
+}
+
+.about_title {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* Business Overview style  */
+.over_container {
+  background-color: var(--primary-color);
+}
+
+.overview_card {
+  background-color: white;
+}
+
+.overview_title {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+/* Services Section style  */
+.service_card {
+  background-color: white;
+}
+
+.service_title {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.icon-container {
+  width: 60px; /* Set a width for the container if needed */
+  height: 60px; /* Set a height for the container if needed */
+  background-color: white;
+  border-radius: 10px;
+}
+
+.icon_blue_bg {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+.service_icon {
+  font-size: 25px;
+}
+
+.service_card_gold {
+  background-color: var(--secondary-color);
+}
+
+.white_bg_title {
+  color: var(--primary-color) !important;
+}
+
+.service_background {
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='16.5' height='32.877' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M-5 2l5 10L5 2zm16.5 0l5 10 5-10zM8.25 4.438l-5 10h10zm-5 14l5 10.001 5-10zM0 20.878l-5 10H5zm16.5 0l-5 10h10z'  stroke-width='1' stroke='hsla(38, 85%, 39%, 0.08)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+  /* background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='16.5' height='32.877' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M-5 2l5 10L5 2zm16.5 0l5 10 5-10zM8.25 4.438l-5 10h10zm-5 14l5 10.001 5-10zM0 20.878l-5 10H5zm16.5 0l-5 10h10z'  stroke-width='1' stroke='hsla(38, 85%, 39%, 0.16)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>"); */
+}
+
+/* Comprehensive Services  */
+
+.compresive_title {
+  color: var(--secondary-color);
+}
+
+/* Contact styling start  */
+.contact_deco {
+  width: 10px;
+  height: 100%;
+  background-color: var(--secondary-color);
+}
+
+.contact_title {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+/* Footer style start  */
+.footer_container {
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='16.5' height='32.877' patternTransform='scale(3) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(239, 100%, 11%, 1)'/><path d='M-5 2l5 10L5 2zm16.5 0l5 10 5-10zM8.25 4.438l-5 10h10zm-5 14l5 10.001 5-10zM0 20.878l-5 10H5zm16.5 0l-5 10h10z'  stroke-width='0.5' stroke='hsla(38, 85%, 39%, 0.42)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,-2.262)' fill='url(%23a)'/></svg>");
+}
+
+.point_deco {
+  background-color: var(--secondary-color);
+  height: 10px;
+  width: 50%;
+}
+
+/* Rights Stylignt start  */
+.rights_container {
+  background-color: var(--secondary-color);
+}
+
+@media (max-width: 576px) {
+  .hero_title {
+    font-size: 30px;
+  }
+
+  .sectoin_padding {
+    margin-top: 70px;
+  }
+}

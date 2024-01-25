@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Template CSS Style link -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <!-- Montserrat font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS animation  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Pinnacle Point Mining</title>
+  </head>
+  <body>
+    <!-- ======= Navbar ======= -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="/assets/images/logoHD.svg" alt="" width="90" height="60" />
+        </a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample"
+        >
+          <i class="bi bi-list navbar_icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Conatct</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <button class="btn contact_btn px-5">Contact</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ======= Mobile Offcanvas ======= -->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <img src="/assets/images/logoHD.svg" alt="" class="img-fluid" />
+
+        <div class="mt-5">
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-arrow-right-square-fill offcanvas_icon"></i>
+            <p class="mb-0">Home</p>
+          </div>
+          <!-- end item  -->
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-arrow-right-square-fill offcanvas_icon"></i>
+            <p class="mb-0">About</p>
+          </div>
+          <!-- end item  -->
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-arrow-right-square-fill offcanvas_icon"></i>
+            <p class="mb-0">Services</p>
+          </div>
+          <!-- end item  -->
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-arrow-right-square-fill offcanvas_icon"></i>
+            <p class="mb-0">Contact</p>
+          </div>
+          <!-- end item  -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ======= Hero Section ======= -->
+    <section class="hero_container">
+      <div class="container">
+        <div class="row" style="overflow: hidden">
+          <div class="col-12 col-lg-6 d-flex align-items-center">
+            <div>
+              <h5
+                class="text-white mb-3"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                Welcome to Pinnacle Point Mining
+              </h5>
+              <h1
+                class="text-white fw-bold mb-5 hero_title"
+                data-aos="fade-left"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                Lighting the Path to Excellence in Mining Solutions
+              </h1>
+              <h4
+                class="text-white d-none d-md-block"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                Discover excellence in mining services with Pinnacle Point
+                Mining. Our cutting-edge lighting solutions, commitment to
+                safety, and zero Lost Time Incidents set us apart. Illuminate
+                your path to success with us
+              </h4>
+              <p
+                class="text-white d-md-none"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                Discover excellence in mining services with Pinnacle Point
+                Mining. Our cutting-edge lighting solutions, commitment to
+                safety, and zero Lost Time Incidents set us apart. Illuminate
+                your path to success with us
+              </p>
+              <button
+                class="btn btn_contact py-2 px-5 mt-4"
+                data-aos="fade-left"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                Contact Us Today
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Four Points Section ======= -->
+    <section class="container point_container">
+      <div class="row" style="overflow: hidden">
+        <div
+          class="col-12 col-md-6 col-lg-3 mb-3"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div class="points_card h-100 shadow p-4 main_points_card">
+            <h6 class="points_card_title mb-3 fw-bold">
+              Cutting-Edge Lighting Solutions
+            </h6>
+            <p class="text-white">
+              Illuminate your mining operations with our state-of-the-art
+              lighting towers. Our units, equipped with powerful LED lights,
+              ensure optimal visibility, safety, and efficiency in every
+              open-cast mine.
+            </p>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-12 col-md-6 col-lg-3 mb-3"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div class="points_card shadow p-4 h-100">
+            <h6 class="points_card_title mb-3 fw-bold">Safety First, Always</h6>
+            <p>
+              At Pinnacle Point Mining, safety is our priority. We adhere to
+              stringent mine safety regulations, conduct regular employee
+              medical checks, and maintain detailed safety files for our
+              lighting plants, ensuring a secure working environment.
+            </p>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-12 col-md-6 col-lg-3 mb-3"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div class="points_card shadow p-4 h-100">
+            <h6 class="points_card_title mb-3 fw-bold">
+              Comprehensive Mining Services
+            </h6>
+            <p>
+              Beyond lighting, we offer a full spectrum of mining services,
+              including logistics, transportation, and supplying
+              equipment/spares. Our dedication to growth is evident in our
+              investment in future projects, such as vamping and sweeping.
+            </p>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-12 col-md-6 col-lg-3 mb-3"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div class="points_card shadow p-4 h-100">
+            <h6 class="points_card_title mb-3 fw-bold">
+              Trusted by Prominent Mines
+            </h6>
+            <p>
+              Join the ranks of satisfied clients. Pinnacle Point Mining is
+              trusted by renowned mines like Andru Mining, Carocept, Tshiamo
+              Resources, Impact Mining, and Isisekelo Engineering. Experience
+              excellence in mining solutions with us.
+            </p>
+          </div>
+        </div>
+        <!-- end item  -->
+      </div>
+    </section>
+
+    <!-- ======= About Us ======= -->
+    <section class="container sectoin_padding">
+      <div class="row" style="overflow: hidden">
+        <div
+          class="col-12 col-md-12 col-lg-6 mb-4"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <img src="/assets/images/logoHD.svg" alt="" class="about_logo" />
+        </div>
+        <div
+          class="col-12 col-md-12 col-lg-6"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <h1 class="about_title mb-3">About Pinnacle Point Mining</h1>
+          <p>
+            Welcome to <span class="fw-bold">Pinnacle Point Mining</span>, a
+            dynamic and proudly black-owned company specializing in the
+            construction and supply of lighting towers. Established with a
+            vision for excellence, we focus on providing tailored solutions to
+            open-cast mines seeking reliable and efficient lighting options for
+            hire.
+          </p>
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <p>
+                As a young and ambitious entity,
+                <span class="fw-bold">Pinnacle Point Mining</span> aims to
+                illuminate the mining sector with cutting-edge technology and
+                unparalleled service. Our commitment is rooted in building
+                lighting towers that not only meet but exceed the demands of the
+                industry. From construction to supplying, our offerings are
+                designed to enhance visibility, safety, and overall operational
+                efficiency within open-cast mines.
+              </p>
+            </div>
+            <div class="col-12 col-md-6">
+              <img src="/assets/images/about01.jpg" alt="" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Business Overview ======= -->
+    <section class="over_container sectoin_padding py-5">
+      <div class="container" style="overflow: hidden">
+        <h3
+          class="text-white fw-bold mb-3"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          Business overview
+        </h3>
+        <p
+          class="text-light mb-3"
+          data-aos="fade-left"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          Our company offers lighting plants at a competitive daily rate and
+          this includes the servicing of the units on a monthly basis. Our
+          employees are available after hours for any break downs or call outs.
+          We comply with all the mines safety requirements and regulations like
+          being subjected to medicals and also maintaining safety files for our
+          lighting plants.
+        </p>
+        <button
+          class="btn btn-light px-5 py-2 mt-4 mb-5"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          Contact Us
+        </button>
+        <div class="row">
+          <div
+            class="col-12 col-md-6 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <div class="overview_card h-100 p-4">
+              <h5 class="overview_title">Mission Statement</h5>
+              <p>
+                Successfully deliver mining services to all mines in the most
+                cost efficient manner and with zero LTI’s and a good safety
+                record.
+              </p>
+            </div>
+          </div>
+          <!-- end item  -->
+          <div
+            class="col-12 col-md-6 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <div class="overview_card h-100 p-4">
+              <h5 class="overview_title">Vision</h5>
+              <p>
+                The vision of Pinnacle Point Mining is to be one of the leading
+                and successful mining contracting BEE organizations, through
+                providing safe and efficient service with proper management of
+                funds, honest and excellent client service.
+              </p>
+            </div>
+          </div>
+          <!-- end item  -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Services ======= -->
+    <section class="sectoin_padding py-5 service_background">
+      <div class="container" style="overflow: hidden">
+        <h3 class="fw-bold mb-3 service_title">Lighting Plant hire service</h3>
+        <p
+          class="mb-5 compresive_title"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          Providing lighting plants for rental to mines and construction sites
+          at a competitive rate.
+        </p>
+        <h3 class="fw-bold mb-3 service_title">Visuals of the units</h3>
+        <p
+          class="mb-5 compresive_title"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          These units are currently available in bright blue and grey colours.
+          The trailer has been powder coated for the unit to withstand tough
+          mine conditions. They are easy to move around as you can simply attach
+          to your tow bar and move to any area where operations requires it.
+        </p>
+
+        <div class="row mt-5">
+          <div
+            class="col-12 col-md-6 col-lg-4 mb-3"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <div class="service_card_gold shadow h-100 p-4 bg-white">
+              <div
+                class="icon-container icon_blue_bg d-flex justify-content-center align-items-center mb-4"
+              >
+                <i class="bi bi-gear-fill service_icon"></i>
+              </div>
+
+              <h6 class="fw-bold service_title mt-3 white_bg_title">
+                Roadworthy Mobility
+              </h6>
+              <p>
+                Ensure secure transportation with our licensed trailers,
+                guaranteeing roadworthiness and reliable mobility for our
+                lighting towers.
+              </p>
+            </div>
+          </div>
+          <!-- end item  -->
+          <div
+            class="col-12 col-md-6 col-lg-4 mb-3"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <div class="service_card_gold shadow h-100 p-4">
+              <div
+                class="icon-container d-flex justify-content-center align-items-center mb-4"
+              >
+                <i class="bi bi-gear-fill service_icon"></i>
+              </div>
+
+              <h6 class="fw-bold service_title mt-3">
+                Customizable Illumination
+              </h6>
+              <p>
+                Tailor your lighting needs with four options of 200/300/500
+                watts LED lights, providing flexibility based on the specific
+                requirements of your mining site.
+              </p>
+            </div>
+          </div>
+          <!-- end item  -->
+          <div
+            class="col-12 col-md-6 col-lg-4 mb-3"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <div class="service_card_gold shadow h-100 p-4 bg-white">
+              <div
+                class="icon-container icon_blue_bg d-flex justify-content-center align-items-center mb-4"
+              >
+                <i class="bi bi-gear-fill service_icon"></i>
+              </div>
+
+              <h6 class="fw-bold service_title mt-3 white_bg_title">
+                Versatile Vertical Control
+              </h6>
+              <p>
+                Adapt to varying terrains effortlessly with our lighting towers'
+                adjustable mast, reaching a maximum height of 4 meters. The
+                manual control ensures precise and versatile vertical
+                positioning.
+              </p>
+            </div>
+          </div>
+          <!-- end item  -->
+          <div
+            class="col-12 col-md-6 col-lg-4 mb-3"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <div class="service_card_gold shadow h-100 p-4">
+              <div
+                class="icon-container d-flex justify-content-center align-items-center mb-4"
+              >
+                <i class="bi bi-gear-fill service_icon"></i>
+              </div>
+
+              <h6 class="fw-bold service_title mt-3">
+                Safety First with Mounted Fire Protection
+              </h6>
+              <p>
+                Prioritize safety on-site with our mounted 9Kg fire
+                extinguisher, readily available to address any unforeseen
+                emergencies, ensuring a secure working environment.
+              </p>
+            </div>
+          </div>
+          <!-- end item  -->
+          <div
+            class="col-12 col-md-6 col-lg-4 mb-3"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <div class="service_card_gold shadow h-100 p-4 bg-white">
+              <div
+                class="icon-container icon_blue_bg d-flex justify-content-center align-items-center mb-4"
+              >
+                <i class="bi bi-gear-fill service_icon"></i>
+              </div>
+
+              <h6 class="fw-bold service_title mt-3 white_bg_title">
+                Powerful Yanmar Generator
+              </h6>
+              <p>
+                Experience peak performance with our Diesel generator (4 to 6
+                KVA). The Yanmar Generator, recognized as the epitome of
+                generators in the market, ensures a reliable and constant power
+                supply for your operations.
+              </p>
+            </div>
+          </div>
+          <!-- end item  -->
+          <div
+            class="col-12 col-md-6 col-lg-4 mb-3"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <div class="service_card_gold shadow h-100 p-4">
+              <div
+                class="icon-container d-flex justify-content-center align-items-center mb-4"
+              >
+                <i class="bi bi-gear-fill service_icon"></i>
+              </div>
+
+              <h6 class="fw-bold service_title mt-3">
+                Safety Precautions at Your Fingertips
+              </h6>
+              <p>
+                Incorporate an additional layer of safety with our isolation
+                switch, providing a quick and efficient means to secure the
+                lighting tower, enhancing overall safety precautions at the
+                mining site.
+              </p>
+            </div>
+          </div>
+          <!-- end item  -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Comprehensive Services ======= -->
+    <section
+      class="container sectoin_padding py-5"
+      style="overflow: hidden"
+      data-aos="fade-right"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+    >
+      <h3 class="fw-bold mb-3 service_title">Comprehensive Services</h3>
+      <p class="mb-5">
+        Beyond lighting solutions, we offer a range of services
+      </p>
+
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3 mb-3">
+          <div>
+            <h2 class="fw-bold mb-4">01</h2>
+            <h6 class="fw-bold compresive_title">
+              Efficient Logistics and Transportation Solutions
+            </h6>
+            <p>
+              Pinnacle Point Mining seamlessly manages logistics and
+              transportation, ensuring timely and efficient delivery of
+              equipment and spares to mining sites. Our commitment to
+              reliability extends beyond lighting towers.
+            </p>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div class="col-12 col-md-6 col-lg-3 mb-3">
+          <div>
+            <h2 class="fw-bold mb-4">02</h2>
+            <h6 class="fw-bold compresive_title">
+              Comprehensive Equipment and Spares Supply
+            </h6>
+            <p>
+              Elevate your mining operations with our comprehensive supply
+              services. We provide mines with high-quality equipment and spares,
+              contributing to the seamless functionality and maintenance of your
+              site.
+            </p>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div class="col-12 col-md-6 col-lg-3 mb-3">
+          <div>
+            <h2 class="fw-bold mb-4">03</h2>
+            <h6 class="fw-bold compresive_title">
+              Future-Forward Vamping and Sweeping Projects
+            </h6>
+            <p>
+              Anticipating the evolving needs of the industry, Pinnacle Point
+              Mining is strategically investing time and effort in future
+              projects, such as vamping and sweeping. Stay ahead with our
+              forward-thinking approach to mining solutions.
+            </p>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div class="col-12 col-md-6 col-lg-3 mb-3">
+          <div>
+            <h2 class="fw-bold mb-4">04</h2>
+            <h6 class="fw-bold compresive_title">
+              Strategic Investment for Business Advancement
+            </h6>
+            <p>
+              Pinnacle Point Mining is not just a service provider; we are
+              dedicated to advancing the mining industry. Our proactive
+              investment in future projects demonstrates our commitment to
+              innovation and staying at the forefront of mining solutions.
+            </p>
+          </div>
+        </div>
+        <!-- end item  -->
+      </div>
+    </section>
+
+    <!-- ======= Referrals ======= -->
+    <section class="over_container sectoin_padding py-5">
+      <div class="container">
+        <div class="row" style="overflow: hidden">
+          <div class="col-12 col-lg-6 mb-4 d-flex align-items-center">
+            <img src="/assets/images/map_img.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-12 col-lg-6">
+            <h1 class="text-white fw-bold mb-3">Trusted by Prominent Mines</h1>
+            <h4 class="text-light mb-5">Previous & Current Sites References</h4>
+
+            <div
+              class="bg-white p-3 mb-4"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <h6 class="fw-bold">
+                Andru Mining (Pty) Ltd – Wonderfontein Site
+              </h6>
+              <p>Contact : Johan – 083 775 3205</p>
+            </div>
+            <!-- end item  -->
+            <div
+              class="bg-white p-3 mb-4"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <h6 class="fw-bold">Andru Mining Bank Site</h6>
+              <p>Contact : Jerry Dlamini – 082 540 5679</p>
+            </div>
+            <!-- end item  -->
+            <div
+              class="bg-white p-3 mb-4"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <h6 class="fw-bold">Carocept (Pty) Ltd</h6>
+              <p>Contact : Carla Filbey – 011 805 0011</p>
+            </div>
+            <!-- end item  -->
+            <div
+              class="bg-white p-3 mb-4"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <h6 class="fw-bold">Tshiamo Resources (Pty) Ltd</h6>
+              <p>Exxaro Leeuwpan Coal Mine Delmas</p>
+              <p>Contact : Moshe Tshiamo – 076 627 7925</p>
+            </div>
+            <!-- end item  -->
+            <div
+              class="bg-white p-3 mb-4"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <h6 class="fw-bold">Impact Mining and Processing (Pty) Ltd</h6>
+              <p>Contact : Marlene – 065 963 6657</p>
+            </div>
+            <!-- end item  -->
+            <div
+              class="bg-white p-3 mb-4"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <h6 class="fw-bold">Isisekelo Engineering</h6>
+              <p>Contact: Ruan Van Rensburg - 0615351389</p>
+            </div>
+            <!-- end item  -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Contact Us ======= -->
+    <section
+      class="container sectoin_padding py-5"
+      style="overflow: hidden"
+      data-aos="fade-right"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+    >
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="row mb-5">
+            <div class="col-1">
+              <div class="contact_deco"></div>
+            </div>
+            <div class="col">
+              <h1 class="contact_title">
+                Join Us in Shaping the Future of Mining !
+              </h1>
+            </div>
+          </div>
+
+          <h6 class="fw-bold">Company Current Shareholder & Director</h6>
+          <p class="mb-4">Mr Gana Griffiths Ngema</p>
+
+          <h6 class="fw-bold">Company Registration</h6>
+          <p class="mb-4">2020 / 489505 / 07</p>
+
+          <h6 class="fw-bold">Contact info</h6>
+          <p class="mb-2">0609750749</p>
+          <p class="mb-4">0833024078</p>
+
+          <h6 class="fw-bold">Email</h6>
+          <p class="mb-4">gana@pinnaclepointmining.co.za</p>
+        </div>
+        <div class="col-12 col-md-6">
+          <img src="/assets/images/contact_img.svg" alt="" class="img-fluid" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Footer ======= -->
+    <section class="footer_container py-5">
+      <div class="container">
+        <div class="row pt-5">
+          <div class="col-12 col-md-12 col-lg-4">
+            <!-- <h1 class="fw-bold text-white">Pinnacle Point Mining</h1>  -->
+            <center>
+              <div>
+                <h1 class="hero_title text-white fw-bold">PINNACLE</h1>
+                <h1 class="hero_title text-white mb-2 fw-bold">POINT</h1>
+                <div class="point_deco mb-2"></div>
+                <h1 class="text-white fw-bold">MINING</h1>
+              </div>
+            </center>
+          </div>
+          <!-- end item row  -->
+          <div
+            class="col-12 col-md-12 col-lg-4 d-flex justify-content-lg-end mb-5"
+          >
+            <div>
+              <h4 class="fw-bold mb-3 text-white">Explore</h4>
+              <p class="text-light mb-3">Home</p>
+              <p class="text-light mb-3">About</p>
+              <p class="text-light mb-3">Services</p>
+              <p class="text-light mb-3">Contact</p>
+            </div>
+          </div>
+          <!-- end item row  -->
+          <div class="col-12 col-md-12 col-lg-4 d-flex justify-content-lg-end">
+            <div>
+              <h4 class="fw-bold mb-3 text-white">Get in touch</h4>
+              <p class="text-light mb-2 fw-bold">Phone</p>
+              <p class="text-light mb-4">0609750749</p>
+              <p class="text-light mb-2 fw-bold">Phone</p>
+              <p class="text-light mb-4">0833024078</p>
+              <p class="text-light mb-2 fw-bold">Email</p>
+              <p class="text-light mb-0">gana@pinnaclepointmining.co.za</p>
+            </div>
+          </div>
+          <!-- end item row  -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Rights ======= -->
+    <section class="rights_container pt-2 pb-4">
+      <div class="container">
+        <center>
+          <p class="mb-0 text-white">
+            © <span id="currentYear"> </span> Pinnacle Point Mining. Developed
+            by
+            <span class="fw-bold" style="color: #00013a">GNT TECHNOLOGY</span>.
+          </p>
+        </center>
+      </div>
+    </section>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      <!-- // Get the current year  -->
+      const currentYear = new Date().getFullYear();
+      document.getElementById("currentYear").textContent = currentYear;
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
